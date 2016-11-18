@@ -53,7 +53,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right top-nav">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -84,25 +84,47 @@
     <div class="modal fade" id="referus">
             <div class="modal-dialog">
                 <div class="modal-content">
+                <form action="" name="referUs" id="referUs" >
                         <div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4></div>
+        <h4 class="modal-title">Please us about your Business</h4></div>
                         <div class="modal-body"> <form action="">
                             <div class="form-group">
-                                <span>What problem Do you want to Solve</span>
-                                <select name="worldproblems" class="form-control" id="worldproblems">
+                                <span>Business Name</span>
+                                <input type="text" name="businessname" id="businessname" class="form-control" />
+                                <br>
+                                <span>Contact Name</span>
+                                <input type="text" name="contactname" id="contactname" class="form-control" />
+                                <br>
+                                <span>Phone #</span>
+                                <input type="text" name="referphone" id="referphone" class="form-control" />
+                                <br>
+                                <span>Email</span>
+                                <input type="text" name="referemail" id="referemail" class="form-control" />
+                                <br>
+                                <span>Type </span>
+                                <div class="radio">
+                                  <label><input type="radio" name="refermaker" id="refermaker" >Maker </label>
+                                  <label><input type="radio" name="referretailer" id="referretailer" >Retailer </label>
+                                </div>
 
-                                    <option value="Economic Fairness">Economic Fairness</option>
-                                    <option value="Comprehensive Peace">Comprehensive Peace</option>
-                                </select>
-                            <br><span> Answer</span>
-                                <input type="text" class="form-control" name="wp_answer" /><br>
-                                <span>Your Name</span>
-                                <input type="text" class="form-control" name="wp_name" /> 
+                            <span>Address</span>
+                            <input type="text" name="referaddress" id="referaddress" class="form-control" />
+                            <br> 
+                            <span>Website</span>
+                            <input type="text" name="referwebsite" id="referwebsite" class="form-control" />
+                            <br>
+                            <span>Your Name</span>
+                            <input type="text" name="yourname" id="yourname" class="form-control" />
+                            <br>
+                            <span> your email</span>
+                            <input type="text" name="youremail" id="youremail" class="form-control" />
                             </div>
-                        </form></div>
+
+                            </div>
                         <div class="modal-footer"> 
-                            <button class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button class="btn btn-primary">Submit</button>
+                            <button class="btn btn-default" id="closerefer" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
                         </div>
                 </div>
             </div>
@@ -374,47 +396,64 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img src="img/team/dash.png" class="img-responsive img-circle" alt="">
+                        <h4>Dash Liu</h4>
+                        <p class="text-muted">Co-Founder</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+
+                            <li><a href="https://twitter.com/DashSoulja"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                             <li><a href="https://www.facebook.com/coshelf"><i class="fa fa-facebook"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img src="img/team/mustafa.png" class="img-responsive img-circle" alt="">
+                        <h4>Mustafa Qureshi</h4>
+                        <p class="text-muted">Co-Founder</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://twitter.com/mustafashakeel"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/msqureshi"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.instagram.com/mustafasqureshi"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/mustafashakeel"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img src="img/team/jon.png" class="img-responsive img-circle" alt="">
+                        <h4>Jon Girard</h4>
+                        <p class="text-muted">Co-Founder</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="twitter.com/jongirard"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/jon.girard"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/in/jon-girard-8239988b"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/minhtri.png" class="img-responsive img-circle" alt="">
+                        <h4>Minh Tri Banh</h4>
+                        <p class="text-muted">Co-Founder</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/iamMEIji"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/minh.t.banh"><i class="fa fa-facebook"></i></a>
+                            </li>
+
+                            <li><a href="https://www.linkedin.com/in/minh-tri-banh-3a948536"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -422,7 +461,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted"></p>
                 </div>
             </div>
         </div>
@@ -450,7 +489,7 @@
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
                         <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
+                    </a>f
                 </div>
             </div>
         </div>
@@ -727,6 +766,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="js/refer_me.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.js"></script>

@@ -19,6 +19,11 @@ body {
 .text-muted {
   color: #777777;
 }
+.top-nav {
+    background: currentColor;
+    margin-top: -60px;
+    border-radius: 10px;
+}
 #coshelflogo {
   width: 20%;
   margin-top: -30px;
@@ -240,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/hero.png');
+  background-image: url('../img/main.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
