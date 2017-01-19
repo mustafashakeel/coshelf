@@ -27,6 +27,7 @@
     "url": "https://github.com/mustafashakeel/coshelf.git"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "gulp-install": "^0.6.0"
   }
 }
