@@ -19,6 +19,8 @@ body {
     text-transform: uppercase;
     font-size: 18px !important;
   }
+
+  
   #startupcanada{
     zoom:50%;
     float:right;
@@ -30,6 +32,14 @@ body {
 
 #mainNAv {
         background-color: rgba(142, 142, 142, 0.79);
+}
+.paypal-select{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.paypal-button{
+  margin-top: 15px;
 }
 .text-muted {
   color: #777777;
