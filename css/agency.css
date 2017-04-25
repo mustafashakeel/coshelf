@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
  #mc-embedded-subscribe{
     border-color: #f9e18c !important;
     border-width: 3px !important;
@@ -20,6 +21,54 @@ body {
     font-size: 18px !important;
   }
 
+  .prelaunch {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+.products-block {
+  /*border: 1px solid black;*/
+}
+.product-image {
+  width:100%;
+
+}
+.col-md-6{
+  padding:0px;
+}
+
+.white {
+  background: white;
+}
+
+.beige {
+  background: beige;
+}
+.calltoaction {
+      float: right;
+    position: relative;
+    margin-top: -50px;
+    width: 200px;
+}
+}
+
+  li {
+    line-height: 2.5em;
+}
+  ol.blocks{
+    border: 2px grey solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      max-height: 400px;
+  }
+
   
   #startupcanada{
     zoom:50%;
@@ -29,6 +78,10 @@ body {
     float:left;
     zoom:70%;
   }
+
+#myCarousel{
+  margin-top: 6em;
+}
 
 #mainNAv {
         background-color: rgba(142, 142, 142, 0.79);
